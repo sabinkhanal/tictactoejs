@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link  rel="stylesheet" href="tictactoe.css"></link>
+  </head>
+  <body>
+    <div class="text-center">
+      <h1>Tic Tac Toe</h1>
+      <h3 id="turnText"></h3>     
+      <div class="score">
+        <span><u>Scores</u></span><br>
+          <span id="p1_score">Player One  :</span>
+          <span id="p2_score">Player Two :</span>
+          <span id="draw_score">Draw :</span>
+      </div>
+      <button class="replay" id="restartBtn">Restart</button>
+    </div>
+
+    <div class="gamebox" style="margin-top:20px">
+      <button id="00"></button>
+      <button id="01"></button>
+      <button id="02"></button>
+      <button id="10"></button>
+      <button id="11"></button>
+      <button id="12"></button>
+      <button id="20"></button>
+      <button id="21"></button>
+      <button id="22"></button>
+    </div>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
